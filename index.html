@@ -37,7 +37,8 @@
     function showAndroidToast(toast) {
         if(typeof Android !== "undefined" && Android !== null) {
             android.showToast(toast);
-        } else {
+        } 
+	else {
             alert("Not viewing in webview");
         }
     }
